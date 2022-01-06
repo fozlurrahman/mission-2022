@@ -52,9 +52,26 @@ button {
 .header-content h1 {
     font-size: 60px;
     line-height: 80px;
-    border-left: 3px solid #FF5959;
+    padding: 0px;
+    font-family: fangsong;
 
 
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    width: 4px;
+    height: 125px;
+    background: red;
+    margin-top: 55px;
+    margin-right: 5px;
+    margin-left: -0px;
+    border: 0;
+    border-radius: 25px;
 }
 
 .header-img {
@@ -115,17 +132,18 @@ button {
     line-height: 22px;
 }
 
-
 .develop-area {
+
     width: 80%;
     margin: 50px auto;
     display: flex;
     flex-direction: row;
 }
 
-.develop-img {
-    width: 100%;
-    margin-right: 70px;
+.develop-img-shape {
+    width: 200px;
+    margin-bottom: -320px;
+    margin-left: 50px;
 }
 
 .develop-img img {
@@ -145,6 +163,12 @@ button {
     flex-direction: row;
 }
 
+.community-img-shape {
+    width: 200px;
+    margin-bottom: -550px;
+    margin-left: 82%;
+}
+
 .community-img {
     width: 100%;
     margin-left: 70px;
@@ -159,30 +183,20 @@ button {
 }
 
 
-.app-fetures-area {
-    width: 80%;
+.team-area {
+    width: 70%;
     margin: 100px auto;
-}
-
-.app-fetures {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+
 }
 
-.app-fetures-img {
-    width: 100%;
-    margin-right: 163px;
-    margin-left: 100px;
-}
+.team-area img {
+    background: rgb(207, 205, 205);
+    width: 250px;
+    margin-right: 100px;
+    border-radius: 50px;
 
-.app-fetures-img img {
-    width: 338px;
-    height: 542px;
-}
-
-.app-fetures-content h1 {
-    margin-top: 120px;
 }
 
 footer {
