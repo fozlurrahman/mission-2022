@@ -133,7 +133,6 @@ hr {
 }
 
 .develop-area {
-
     width: 80%;
     margin: 50px auto;
     display: flex;
@@ -144,6 +143,11 @@ hr {
     width: 200px;
     margin-bottom: -320px;
     margin-left: 50px;
+}
+
+.develop-img {
+    width: 100%;
+    margin-right: 70px;
 }
 
 .develop-img img {
