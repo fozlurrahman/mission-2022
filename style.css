@@ -11,8 +11,16 @@ span {
 
 p {
     font-size: 18px;
+    line-height: 30px;
     font-family: sans-serif;
     color: #3E3E3E;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 button {
@@ -51,4 +59,132 @@ button {
 
 .header-img img {
     width: 426px;
+}
+
+.mission-area {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.mission-area h1 {
+    text-align: center;
+}
+
+.missions {
+    display: flex;
+    flex-direction: row;
+}
+
+.mission-box {
+    width: 360px;
+
+    margin: 24px;
+    padding: 30px;
+    background: rgb(247, 190, 190);
+    border-radius: 26px;
+}
+
+.mission-box h3 {
+    font-size: 24px;
+}
+
+.mission-box img {
+    width: 50%;
+}
+
+.box-1 {
+    background: #EDF5F6;
+    margin-left: 0px;
+}
+
+.box-2 {
+    background: #FFEEEE;
+}
+
+.box-3 {
+    background: #FFF4D6;
+}
+
+.mission-box p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.develop-area {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.develop-img {
+    width: 100%;
+    margin-right: 70px;
+}
+
+.develop-img img {
+    width: 100%;
+}
+
+.develop-content h2 {
+    margin-top: 40px;
+}
+
+
+
+.community-area {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.community-img {
+    width: 100%;
+    margin-left: 70px;
+}
+
+.community-img img {
+    width: 100%;
+}
+
+.community-content h2 {
+    margin-top: 60px;
+}
+
+
+.app-fetures-area {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.app-fetures {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-fetures-img {
+    width: 100%;
+    margin-right: 163px;
+    margin-left: 100px;
+}
+
+.app-fetures-img img {
+    width: 338px;
+    height: 542px;
+}
+
+.app-fetures-content h1 {
+    margin-top: 120px;
+}
+
+footer {
+    background: #0B0D17;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+footer h2 {
+    color: white;
 }
