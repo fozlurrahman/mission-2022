@@ -16,6 +16,11 @@ p {
     color: #3E3E3E;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
 h2 {
     font-size: 36px;
     line-height: 50px;
@@ -162,6 +167,7 @@ button {
 .app-fetures {
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
 }
 
 .app-fetures-img {
